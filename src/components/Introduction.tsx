@@ -1,8 +1,17 @@
+interface Props {
+    hey: string,
+    intro: string
+}
 
-
-function Introduction() {
+function Introduction({hey, intro}: Props) {
     return (
-        <h1>Hey! My name is Matus</h1>
+        <>
+            <div className="hey-block">
+                <h1 className="hey">{hey}</h1>
+                <span className="hire">Available for hire</span>
+            </div>
+            <p className="intro">{intro}</p>
+        </>
     )
 }
 
