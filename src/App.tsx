@@ -1,8 +1,9 @@
+import Introduction from "./components/Introduction"
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Introduction />
     </>
   )
 }
