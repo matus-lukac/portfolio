@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 
 interface Props {
     hey: string,
@@ -6,14 +5,6 @@ interface Props {
 }
 
 function Introduction({hey, intro}: Props) {
-    const [post, setPost] = useState()
-
-    useEffect(() => {
-        fetch('https://dummyjson.com/products/1')
-        .then(res => res.json())
-        .then(data => setPost(data))
-    }, [])
-
     return (
         <>
             <div className="hey-block">

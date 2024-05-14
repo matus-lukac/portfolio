@@ -1,0 +1,7 @@
+{
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
+    "workbench.tree.expandMode": "doubleClick",
+    "workbench.list.openMode": "doubleClick"
+}
